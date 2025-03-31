@@ -30,7 +30,7 @@ export const Navbar = () => {
                 href={items.href}
                 className={`${
                   index === 1 ? "bg-blue" : ""
-                } cursor-pointer  text-sm font-bold transition-all duration-200 capitalize hover:text-yellow-300`}
+                } cursor-pointer  text-sm font-bold transition-all duration-200 capitalize active:text-yellow-300 hover:text-yellow-300`}
               >
                 {items.title}
               </a>
